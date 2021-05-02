@@ -1,0 +1,11 @@
+<from action="/recp/save_details/" method="post">
+    {% csrf_token %}
+
+    Username :<input type="text" name="username"><br>
+    Password :<input type="text" name="password"><br>
+    Email :<input type="text" name="email"><br>
+    Phone_number :<input type="text" name="phone_number"><br>
+    <input type="submit" value="Register"><br>
+</from>
+<br>
+<a href="/recp/">Login</a>

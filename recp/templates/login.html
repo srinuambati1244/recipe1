@@ -1,0 +1,7 @@
+<form action="/recp/login_success_or_not/" method="post">
+    {% csrf_token %}
+    Username :<input type="text" name="username"><br>
+    Password :<input type="text" name="password"><br>
+    <input type="submit" value="login">
+</form>
+<a href="/recp/register/">Register</a>

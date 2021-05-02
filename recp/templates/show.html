@@ -1,0 +1,6 @@
+{% for each in receipe %}
+<a href="/recp/{{each.id}}/">{{each.receipe_name}}</a>  <a href="/recp/delete_receipe/{{each.id}}/">delete</a><br>
+{% endfor %}
+<br>
+<a href="/recp/create_receipe/">create own receipe</a><br>
+<a href="/recp/logout_page/">Logout</a>
